@@ -1,6 +1,6 @@
 <template>
   <div
-    class="md:container md:mx-auto md:rounded-xl p-10 md:px-28 bg-cacao text-ceramica text-center"
+    class="md:container md:mx-auto md:rounded-xl p-10 md:p-28 bg-cacao text-ceramica text-center mt-52"
   >
     <h3 class="font-amatic text-5xl">Domande poste di frequente</h3>
     <h4 class="text-md font-light mt-3">
@@ -11,7 +11,9 @@
       >
     </h4>
 
-    <div class="flex flex-col md:flex-row justify-center gap-8 mt-10">
+    <div
+      class="flex flex-col md:flex-row justify-center items-center md:items-start gap-8 mt-10"
+    >
       <div class="flex flex-col gap-8">
         <FaqItem
           question="Come funziona la prenotazione di uno chef a domicilio?"
