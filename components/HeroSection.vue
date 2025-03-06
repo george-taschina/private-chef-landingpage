@@ -1,7 +1,7 @@
 <template>
   <div class="md:container md:mx-auto px-10 md:px-28 py-10">
-    <div class="flex">
-      <div class="flex-1 text-left content-center">
+    <div class="flex md:flex-row flex-col gap-5 md:gap-10">
+      <div class="flex-1 text-center md:text-left content-center">
         <div>
           <h1 class="font-pacifico text-4xl md:text-7xl text-pomodoro">
             Rendi i tuoi pasti <br />
@@ -35,7 +35,7 @@
           </div>
         </div>
       </div>
-      <div class="flex-1 hidden md:block">
+      <div class="flex-1">
         <NuxtImg
           class="rounded-2xl mx-auto"
           alt="cuoco privato"
