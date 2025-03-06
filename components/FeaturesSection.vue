@@ -1,9 +1,9 @@
 <template>
   <div
-    class="bg-cacao flex flex-col md:flex-row py-10 place-content-center items-center gap-8 md:gap-20 lg:gap-80"
+    class="bg-cacao flex flex-col md:flex-row p-10 place-content-center items-center gap-8 md:gap-20 lg:gap-80"
   >
     <div
-      class="flex-1 rounded-xl bg-tiramisu py-2 px-1 max-w-64 text-center shadow-md mb-8 md:mb-0"
+      class="flex-1 rounded-xl bg-tiramisu p-5 max-w-64 text-center shadow-md mb-8 md:mb-0"
     >
       <Icon
         name="fluent:food-grains-24-regular"
@@ -17,7 +17,7 @@
       </p>
     </div>
     <div
-      class="flex-1 rounded-xl bg-tiramisu py-2 px-1 max-w-64 text-center shadow-md mb-8 md:mb-0"
+      class="flex-1 rounded-xl bg-tiramisu p-5 max-w-64 text-center shadow-md mb-8 md:mb-0"
     >
       <Icon name="solar:chef-hat-broken" class="text-oliva" size="108" />
       <h2 class="text-cacao font-amatic font-bold text-4xl">
@@ -29,7 +29,7 @@
       </p>
     </div>
     <div
-      class="flex-1 rounded-xl bg-tiramisu py-2 px-1 max-w-64 text-center shadow-md mb-8 md:mb-0"
+      class="flex-1 rounded-xl bg-tiramisu p-5 max-w-64 text-center shadow-md mb-8 md:mb-0"
     >
       <Icon
         name="material-symbols-light:food-bank-outline-rounded"
