@@ -15,7 +15,7 @@
 
       <div
         v-if="success"
-        class="text-pomodoro font-amatic text-xl md:text-7xl mt-12"
+        class="text-pomodoro font-amatic text-5xl md:text-7xl mt-12"
       >
         Grazie per esserti iscritto!
       </div>
@@ -24,7 +24,7 @@
         <div class="flex flex-col md:flex-row gap-5 mt-12">
           <input
             type="email"
-            class="rounded-3xl px-10 w-80 md:w-96 h-20"
+            class="rounded-3xl px-10 w-100 md:w-96 h-20"
             placeholder="Inserisci la tua mail"
             v-model="email"
           />
