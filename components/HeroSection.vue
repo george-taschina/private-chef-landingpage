@@ -40,7 +40,7 @@
           class="rounded-2xl mx-auto"
           alt="cuoco privato"
           width="500"
-          height="700"
+          sizes="200 md:500"
           format="webp"
           fit="cover"
           src="/pexels-cristian-rojas-8478178.jpg"

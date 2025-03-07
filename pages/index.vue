@@ -27,6 +27,7 @@ useSeoMeta({
     "ChefHub ti permette di trovare il tuo Chef Privato in zona e organizzare il tuo prossimo momento speciale, scegli tra più di 3000 Chef Privati disponibili in tutta Italia, tramite la nostr app ",
   ogDescription:
     "Trova il tuo Chef Privato in zona e organizza il tuo prossimo momento speciale",
+  ogImage: "https://chefhub.it/pexels-cristian-rojas-8478178.jpg",
 });
 </script>
 

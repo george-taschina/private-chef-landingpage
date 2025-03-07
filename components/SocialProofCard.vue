@@ -16,7 +16,7 @@
         width="40"
         height="40"
         :src="imageSrc"
-        preload
+        loading="lazy"
       />
       <div>
         <p class="text-cacao font-bold text-md">{{ name }}</p>
