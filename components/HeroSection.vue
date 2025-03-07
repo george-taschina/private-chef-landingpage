@@ -16,11 +16,13 @@
           </h2>
           <div class="flex flex-col md:flex-row gap-3 mt-8">
             <div class="flex-none">
-              <button
-                class="bg-oliva text-ceramica font-bold py-4 px-4 rounded text-xl"
-              >
-                Portami a TAVOLA
-              </button>
+              <NuxtLink :to="{ path: '/', hash: '#early' }">
+                <button
+                  class="bg-oliva text-ceramica font-bold py-4 px-4 rounded text-xl"
+                >
+                  Portami a TAVOLA
+                </button>
+              </NuxtLink>
             </div>
             <div class="flex-none">
               <h3 class="md:text-xl leading-3">

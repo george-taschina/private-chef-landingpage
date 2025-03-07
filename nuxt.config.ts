@@ -94,13 +94,25 @@ export default defineNuxtConfig({
       },
     ],
   },
+  vuefire: {
+    config: {
+      apiKey: "AIzaSyAiuJWIa7cRgqXLxddwfL0TTzyShm34RL4",
+      authDomain: "weroad-demo.firebaseapp.com",
+      projectId: "weroad-demo",
+      storageBucket: "weroad-demo.firebasestorage.app",
+      messagingSenderId: "1083444293052",
+      appId: "1:1083444293052:web:4b5e75a4ca47298db70fb9",
+    },
+  },
   modules: [
     "@nuxt/image",
     "@nuxt/fonts",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/seo",
     "@nuxt/icon",
+    "nuxt-vuefire",
   ],
+
   fonts: {
     families: [
       { name: "Saira Condensed", provider: "google" },

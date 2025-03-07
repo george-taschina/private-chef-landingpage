@@ -10,14 +10,20 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@firebase/app-types": "^0.9.3",
     "@nuxt/fonts": "0.10.3",
     "@nuxt/icon": "1.10.3",
     "@nuxt/image": "1.9.0",
     "@nuxtjs/seo": "2.2.0",
     "@nuxtjs/tailwindcss": "6.13.1",
+    "firebase": "^11.4.0",
+    "firebase-admin": "^13.2.0",
+    "firebase-functions": "^6.3.2",
     "nuxt": "^3.15.4",
+    "nuxt-vuefire": "1.0.5",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "vuefire": ">=3.2.1"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
