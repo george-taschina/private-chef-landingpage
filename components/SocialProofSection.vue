@@ -1,5 +1,5 @@
 <template>
-  <div class="md:container md:mx-auto px-10 md:px-28 py-10">
+  <div class="container md:mx-auto px-5 md:px-0 py-10">
     <div>
       <Icon
         name="mingcute:quote-left-fill"
@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="flex-1 mt-8 md:mt-0">
-        <div class="bg-cacao grid md:grid-cols-2 gap-14 rounded-xl p-6">
+        <div class="bg-cacao grid md:grid-cols-2 gap-10 rounded-xl p-6">
           <SocialProofCard
             testimonial="Una piattaforma ben organizzata e facile da usare. Mi permette di trovare nuovi clienti e di mostrare la mia creatività in cucina. I feedback positivi degli utenti mi motivano a fare sempre meglio!"
             imageSrc="/saverio_palmieri.jpg"
